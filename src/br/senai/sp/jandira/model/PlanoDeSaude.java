@@ -5,6 +5,20 @@ public class PlanoDeSaude {
 	private String operadora;
 	private String TipoDoPlano;
 	
+	// Construtores da classe
+	
+	public PlanoDeSaude(String operadora) {
+		this.operadora = operadora;
+	}
+	
+	public PlanoDeSaude(String operadora, String tipoDoPlano) {
+		this.operadora = operadora;
+		this.TipoDoPlano = tipoDoPlano;
+	}
+	public PlanoDeSaude() {
+		
+	}
+	
 	//Métodos de acesso
 	public void setOperadora(String operadora) {
 		this.operadora = operadora;
