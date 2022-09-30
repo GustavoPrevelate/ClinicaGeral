@@ -2,7 +2,7 @@ package br.senai.sp.jandira.model;
 
 public class Especialidade {
 	
-	private String nome;
+	private static String nome;
 	private String descricao;
 	
 	// Métodos de acesso getters and setters
